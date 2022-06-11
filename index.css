@@ -32,6 +32,12 @@ button{
 .number{
     width:25%;
 }
+.number:hover{
+    background-color:#7F8487;
+}
+.number:active{
+    background-color:#413F42;
+}
 .decimal{
     width:25%;
 }
