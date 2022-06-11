@@ -28,23 +28,35 @@ button{
     height:50px;
     border: 1px solid black;
 }
+
 .number{
     width:25%;
-
 }
 .decimal{
     width:25%;
 }
 .equal-sign{
     width:50%;
-    background-color: orange;
+    background-color: #FF8D29;
+}
+.equal-sign:hover{
+    background-color:#F66B0E;
+}
+.equal-sign:active{
+    background-color:#E04D01;
 }
 .operation{
     width:25%;
-    background-color:orange;
+    background-color:#FF8D29;
+}
+.operation:hover{
+    background-color:#F66B0E;
+}
+.operation:active{
+    background-color:#E04D01;
 }
 .all-clear{
-    width: 25%;
+    width: 50%;
 }
 .delete{
     width: 25%;
